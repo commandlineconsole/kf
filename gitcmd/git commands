@@ -1,0 +1,8 @@
+--------------------------------
+git config --global user.email "janaidu01@gmail.com"
+
+git add . or git add -u
+git commit -am "first commit" or git push
+
+---------------------------------
+

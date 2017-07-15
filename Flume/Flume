@@ -1,0 +1,63 @@
+cd /opt/cloudera/flume/conf
+example.conf
+
+// first run the following flume-ng command and open telnet to pass the source input information once it done and then finally source info stored into hdfs directory
+
+flume-ng agent --name a1 \
+--conf /home/cloudera/flume/conf \
+--conf-file /home/cloudera/flume/conf/example.conf
+
+flume-ng agent --name a1 --conf /home/cloudera/flume/conf --conf-file /home/cloudera/flume/conf/example.conf
+
+flume-ng agent \
+-n a1 \
+-c /home/cloudera/flume/conf \
+-f /home/cloudera/flume/conf/example.conf
+
+hadoop fs -ls /user/cloudera/flume/*
+hadoop fs -ls /user/cloudera/flume
+hadoop fs -cat /user/cloudera/flume/***
+
+ps -ef|grep ssh
+telnet 44444
+telnet 192.168.0.2 22
+
+-- -------------------------
+// First open the tail command and run the ntpd command to see the log info immediately
+
+sudo service mysqld restart
+sudo service ntpd restart
+sudo tail -f messages ( sever log file will be reflect in the tail log immediately)
+
+cd /var/log
+cat /opt/gen_logs/logs/access.log
+tail -F /opt/gen_logs/logs/access.log
+
+start_logs
+stop_logs
+
+cd /opt/cloudera/flume/conf
+
+view flume.conf
+cd flume
+
+-- -------------------------
+
+cd /opt/cloudera/flume/conf
+cd /opt/examples/flume/conf
+cd /var/log
+
+sudo tail -F messages
+sudo service mysqld restart
+sudo service ntpd restart
+
+tail -F /opt/gen_logs/logs/access.log
+
+start_logs
+stop_logs
+
+---------------------------------
+
+
+
+
