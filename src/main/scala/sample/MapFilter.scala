@@ -4,8 +4,21 @@ object MapFilter {
 
   def main(args: Array[String]): Unit = {
 
+    // val set = Set("NY", "CA", "PA")
+
+    val filtervalues = Set("a", "b", "c")
+//    x.filter(item => filtervalues(item.values))
+
     var x = collection.mutable.Map(1 -> "a", 2 -> "b", 3 -> "c")
+
+    // filtervalues(x)
+
     println("print collection :" + x)     // TODO : print all colletion
+
+    var retainfilter2 = x.retain((k,v) => v toSet("a"))
+    println("retainfilter2 " + retainfilter2)  // TODO: print retained values after filter keys
+
+
 
     var retainfilter = x.retain((k,v) => k > 1)
     println("retain " + retainfilter)  // TODO: print retained values after filter keys
@@ -29,8 +42,10 @@ object MapFilter {
     println(newMap)
 
     var m = Map(1 -> "a", 2 -> "b", 3 -> "c")
+    //var mlist = m.filter((t) => t._1 > 0).filter((t) => t._2 == ("a","c"))
     var mlist = m.filter((t) => t._1 > 0)
-    println(mlist)                      // TODO :  filter data
+
+    println("mlist :" + mlist)                      // TODO :  filter data
 
     var mlist2 = m.filter((t) => t._2 == "c")
     println(mlist2)
