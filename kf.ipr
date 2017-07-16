@@ -2898,15 +2898,15 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/apache/sis/storage/sis-storage/0.6/sis-storage-0.6-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.apache.spark:spark-catalyst_2.10:1.6.3">
+    <library name="Maven: org.apache.spark:spark-catalyst_2.10:1.5.2">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-catalyst_2.10/1.6.3/spark-catalyst_2.10-1.6.3.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-catalyst_2.10/1.5.2/spark-catalyst_2.10-1.5.2.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-catalyst_2.10/1.6.3/spark-catalyst_2.10-1.6.3-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-catalyst_2.10/1.5.2/spark-catalyst_2.10-1.5.2-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-catalyst_2.10/1.6.3/spark-catalyst_2.10-1.6.3-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-catalyst_2.10/1.5.2/spark-catalyst_2.10-1.5.2-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.apache.spark:spark-core_2.10:1.6.3">
@@ -2964,15 +2964,15 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-network-shuffle_2.10/1.6.3/spark-network-shuffle_2.10-1.6.3-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.apache.spark:spark-sql_2.10:1.6.3">
+    <library name="Maven: org.apache.spark:spark-sql_2.10:1.5.2">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.10/1.6.3/spark-sql_2.10-1.6.3.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.10/1.5.2/spark-sql_2.10-1.5.2.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.10/1.6.3/spark-sql_2.10-1.6.3-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.10/1.5.2/spark-sql_2.10-1.5.2-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.10/1.6.3/spark-sql_2.10-1.6.3-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.10/1.5.2/spark-sql_2.10-1.5.2-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.apache.spark:spark-streaming_2.10:1.6.3">

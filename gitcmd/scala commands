@@ -1,0 +1,19 @@
+
+
+val textFile = sc.textFile("hdfs://...")
+val counts = textFile.flatMap(line => line.split(" "))
+                 .map(word => (word, 1))
+                 .reduceByKey(_ + _)
+counts.saveAsTextFile("hdfs://...")
+
+
+----------
+
+
+text_file = sc.textFile("hdfs://...")
+counts = text_file.flatMap(lambda line: line.split(" ")) \
+          .map(lambda word: (word, 1)) \
+          .reduceByKey(lambda a, b: a + b)
+counts.saveAsTextFile("hdfs://...")
+
+-------------------
