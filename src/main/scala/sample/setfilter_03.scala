@@ -19,6 +19,6 @@ object setfilter_03 {
     val y2 = x.filter(_ % 2 == 0)
     val y3 = y2.collect
     println(y3)
-  }
 
+  }
 }

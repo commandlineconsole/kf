@@ -1,5 +1,7 @@
 package sample
 
+// TODO :  filter ,  .map(_.first).sorted
+
 object Listfilter_02 {
 
   def main(args: Array[String]): Unit = {

@@ -23,17 +23,19 @@ object Filterfilecontain_04 {
                              .reduce((a, b) => Math.max(a, b))
 
     // / println(linesWithSpark)
-    linesWithSpark.foreach(println)
-     println("linecount :" +linecount)
-    println("firstline :" + firstline)
-    println("countnum :" + countnum)
-    println("countred :" + countred)
-    println("countred1 :" + countred1)
-    println("countred2 :" + countred1)
+      linesWithSpark.foreach(println)
+
+      println("linecount :" +linecount)
+      println("firstline :" + firstline)
+      println("countnum :" + countnum)
+      println("countred :" + countred)
+      println("countred1 :" + countred1)
+      println("countred2 :" + countred1)
 
 /*    val logFile = "YOUR_SPARK_HOME/README.md" // Should be some file on your system
     val spark = SparkSession.builder.appName("Simple Application").getOrCreate()*/
   //  val logData = spark.read.textFile(logFile).cache()
+
     val numAs = textFile.filter(line => line.contains("a")).count()
     val numBs = textFile.filter(line => line.contains("b")).count()
 

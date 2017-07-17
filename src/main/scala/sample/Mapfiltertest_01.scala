@@ -1,6 +1,6 @@
 package sample
 
-// TODO : set, retail, filter, filterkeys
+// TODO : set, retain, filter, filterkeys
 
 object Mapfiltertest_01 {
 
