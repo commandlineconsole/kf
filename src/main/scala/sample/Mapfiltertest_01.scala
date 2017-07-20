@@ -2,6 +2,8 @@ package sample
 
 // TODO : set, retain, filter, filterkeys
 
+import org.apache.spark.streaming._
+
 object Mapfiltertest_01 {
 
   def main(args: Array[String]): Unit = {

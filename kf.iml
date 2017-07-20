@@ -126,16 +126,21 @@
     <orderEntry type="library" name="Maven: net.razorvine:pyrolite:4.9" level="project" />
     <orderEntry type="library" name="Maven: net.sf.py4j:py4j:0.9" level="project" />
     <orderEntry type="library" name="Maven: org.spark-project.spark:unused:1.0.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.spark:spark-sql_2.10:1.5.2" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.spark:spark-catalyst_2.10:1.5.2" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.janino:janino:2.7.8" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.parquet:parquet-column:1.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.parquet:parquet-common:1.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.parquet:parquet-encoding:1.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.parquet:parquet-generator:1.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.parquet:parquet-hadoop:1.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.spark:spark-sql_2.10:2.1.0" level="project" />
+    <orderEntry type="library" name="Maven: com.univocity:univocity-parsers:2.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.spark:spark-sketch_2.10:2.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.spark:spark-catalyst_2.10:2.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.janino:janino:3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.janino:commons-compiler:3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:antlr4-runtime:4.5.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.spark:spark-tags_2.10:2.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.scalatest:scalatest_2.10:2.2.6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.parquet:parquet-column:1.8.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.parquet:parquet-common:1.8.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.parquet:parquet-encoding:1.8.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.parquet:parquet-hadoop:1.8.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.parquet:parquet-format:2.3.0-incubating" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.parquet:parquet-jackson:1.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.parquet:parquet-jackson:1.8.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.spark:spark-hive_2.10:1.6.3" level="project" />
     <orderEntry type="library" name="Maven: com.twitter:parquet-hadoop-bundle:1.6.0" level="project" />
     <orderEntry type="library" name="Maven: org.spark-project.hive:hive-cli:1.2.1.spark" level="project" />
@@ -168,7 +173,6 @@
     <orderEntry type="library" name="Maven: org.apache.calcite:calcite-core:1.2.0-incubating" level="project" />
     <orderEntry type="library" name="Maven: org.apache.calcite:calcite-linq4j:1.2.0-incubating" level="project" />
     <orderEntry type="library" name="Maven: net.hydromatic:eigenbase-properties:1.1.5" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.janino:commons-compiler:2.7.6" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.3.2" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.13" level="project" />
     <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.10" level="project" />
@@ -180,7 +184,6 @@
     <orderEntry type="library" name="Maven: com.databricks:spark-xml_2.10:0.4.1" level="project" />
     <orderEntry type="library" name="Maven: com.databricks:spark-csv_2.10:1.5.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-csv:1.1" level="project" />
-    <orderEntry type="library" name="Maven: com.univocity:univocity-parsers:1.5.1" level="project" />
     <orderEntry type="library" name="Maven: org.scalanlp:breeze-math_2.10:0.4" level="project" />
     <orderEntry type="library" name="Maven: org.scalanlp:breeze-core_2.10:0.4" level="project" />
     <orderEntry type="library" name="Maven: com.typesafe:scalalogging-log4j_2.10:1.0.1" level="project" />

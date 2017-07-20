@@ -1,0 +1,56 @@
+------------------------
+jps
+ssh localhost
+
+start-all.sh
+start-hbase.sh
+
+jps
+Hbase-shell
+create 'table1' 'colfamily'
+describe 'table1'
+------------------------
+
+put 'test1', 'row1', 'data:1', 'value1'
+put 'test1', 'row2', 'data:2', 'value2'
+put 'test1', 'row3', 'data:3', 'value3'
+put 'test1', 'row4', 'data:4', 'value4'
+
+------------------------
+
+scan 'test1'
+disable 'test1'
+drop 'test1'
+
+------------------------
+create 'emp2', 'personnal_data','profession_data'
+
+scan 'emp2'
+
+put 'emp2', '1, 'personnal_data:name', 'Ja'
+put 'emp2', '2, 'personnal_data:name', 'ram'
+put 'emp2', '1, 'profession_data:Desgination', 'Manager'
+put 'emp2', '2, 'profession_data:name', 'sr Manager'
+
+scan 'emp2'
+
+delete 'emp', '1', 'personnal_data: name', timestamp
+delete 'emp', '1', 'personnal_data: name', 150000221211
+
+get 'emp', '2'
+get 'emp', '1'
+get 'emp', '1', {COLUMN => 'personnal_data: name'}
+
+----------------------------
+
+
+
+
+
+
+
+
+
+
+
+
