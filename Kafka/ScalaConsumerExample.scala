@@ -9,11 +9,11 @@ import org.apache.kafka.clients.consumer.{ConsumerConfig, KafkaConsumer}
 
 import scala.collection.JavaConversions._
 
-class ScalaConsumerExample(val brokers: String,
+class ScalaConsumerExample(val brokers: String,                          //  class
                            val groupId: String,
                            val topic: String) extends Logging {
 
-  val props = createConsumerConfig(brokers, groupId)
+  val props = createConsumerConfig(brokers, groupId)                    // Props
   val consumer = new KafkaConsumer[String, String](props)
   var executor: ExecutorService = null
 
