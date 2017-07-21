@@ -6,10 +6,15 @@ object Map_03 {
 
   def main(args: Array[String]): Unit = {
 
-
     val conf = new SparkConf().setAppName("WordCount")
     conf.setMaster("local[*]")
     val sc = new SparkContext(conf)
+
+    val lines = sc.textFile("C:\\msg\\kafka\\kf\\kf\\README.md")
+    val lineLengths = lines.map(s => s.length)
+    val totalLength = lineLengths.reduce((a, b) => a + b)
+    lineLengths.persist()
+    println(totalLength)
 
     /*val names2 = sc.parallelize(List("apple", "beatty", "beatrice")).map(a => (a, a.size))
     val names3 =  names2.flatMap(t => Array(t._2)).reduce(_ + _)
@@ -56,11 +61,6 @@ object Map_03 {
     //       babyNamesToTotalCount.foreach(println)
 
 
-    val lines = sc.textFile("C:\\msg\\kafka\\kf\\kf\\README.md")
-    val lineLengths = lines.map(s => s.length)
-    val totalLength = lineLengths.reduce((a, b) => a + b)
-    lineLengths.persist()
-    println(totalLength)
 
 
       }

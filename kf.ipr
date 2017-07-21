@@ -885,6 +885,17 @@
         <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/module/jackson-module-scala_2.10/2.4.4/jackson-module-scala_2.10-2.4.4-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: com.github.fommil.netlib:core:1.1.2">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fommil/netlib/core/1.1.2/core-1.1.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fommil/netlib/core/1.1.2/core-1.1.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fommil/netlib/core/1.1.2/core-1.1.2-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: com.github.junrar:junrar:0.7">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/com/github/junrar/junrar/0.7/junrar-0.7.jar!/" />
@@ -2942,6 +2953,17 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-launcher_2.10/1.6.3/spark-launcher_2.10-1.6.3-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.apache.spark:spark-mllib_2.10:1.2.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.10/1.2.0/spark-mllib_2.10-1.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.10/1.2.0/spark-mllib_2.10-1.2.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.10/1.2.0/spark-mllib_2.10-1.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.apache.spark:spark-network-common_2.10:1.6.3">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-network-common_2.10/1.6.3/spark-network-common_2.10-1.6.3.jar!/" />
@@ -3336,6 +3358,61 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.eclipse.jetty:jetty-continuation:8.1.14.v20131031">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-continuation/8.1.14.v20131031/jetty-continuation-8.1.14.v20131031.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-continuation/8.1.14.v20131031/jetty-continuation-8.1.14.v20131031-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-continuation/8.1.14.v20131031/jetty-continuation-8.1.14.v20131031-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.eclipse.jetty:jetty-http:8.1.14.v20131031">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-http/8.1.14.v20131031/jetty-http-8.1.14.v20131031.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-http/8.1.14.v20131031/jetty-http-8.1.14.v20131031-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-http/8.1.14.v20131031/jetty-http-8.1.14.v20131031-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.eclipse.jetty:jetty-io:8.1.14.v20131031">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-io/8.1.14.v20131031/jetty-io-8.1.14.v20131031.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-io/8.1.14.v20131031/jetty-io-8.1.14.v20131031-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-io/8.1.14.v20131031/jetty-io-8.1.14.v20131031-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.eclipse.jetty:jetty-server:8.1.14.v20131031">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/8.1.14.v20131031/jetty-server-8.1.14.v20131031.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/8.1.14.v20131031/jetty-server-8.1.14.v20131031-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/8.1.14.v20131031/jetty-server-8.1.14.v20131031-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.eclipse.jetty:jetty-util:8.1.14.v20131031">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-util/8.1.14.v20131031/jetty-util-8.1.14.v20131031.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-util/8.1.14.v20131031/jetty-util-8.1.14.v20131031-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-util/8.1.14.v20131031/jetty-util-8.1.14.v20131031-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.elasticsearch:elasticsearch-spark_2.10:2.1.0">
@@ -3764,6 +3841,17 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scalap/2.10.0/scalap-2.10.0-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.scalamacros:quasiquotes_2.10:2.0.0-M8">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/scalamacros/quasiquotes_2.10/2.0.0-M8/quasiquotes_2.10-2.0.0-M8.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/scalamacros/quasiquotes_2.10/2.0.0-M8/quasiquotes_2.10-2.0.0-M8-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/scalamacros/quasiquotes_2.10/2.0.0-M8/quasiquotes_2.10-2.0.0-M8-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.scalanlp:breeze-core_2.10:0.4">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/scalanlp/breeze-core_2.10/0.4/breeze-core_2.10-0.4.jar!/" />
@@ -3775,6 +3863,17 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/scalanlp/breeze-core_2.10/0.4/breeze-core_2.10-0.4-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.scalanlp:breeze-macros_2.10:0.3.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/scalanlp/breeze-macros_2.10/0.3.1/breeze-macros_2.10-0.3.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/scalanlp/breeze-macros_2.10/0.3.1/breeze-macros_2.10-0.3.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/scalanlp/breeze-macros_2.10/0.3.1/breeze-macros_2.10-0.3.1-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.scalanlp:breeze-math_2.10:0.4">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/scalanlp/breeze-math_2.10/0.4/breeze-math_2.10-0.4.jar!/" />
@@ -3784,6 +3883,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/scalanlp/breeze-math_2.10/0.4/breeze-math_2.10-0.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.scalanlp:breeze_2.10:0.10">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/scalanlp/breeze_2.10/0.10/breeze_2.10-0.10.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/scalanlp/breeze_2.10/0.10/breeze_2.10-0.10-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/scalanlp/breeze_2.10/0.10/breeze_2.10-0.10-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.scalatest:scalatest_2.10:2.2.6">
@@ -3894,6 +4004,28 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/spark-project/spark/unused/1.0.0/unused-1.0.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.spire-math:spire-macros_2.10:0.7.4">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/spire-math/spire-macros_2.10/0.7.4/spire-macros_2.10-0.7.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/spire-math/spire-macros_2.10/0.7.4/spire-macros_2.10-0.7.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/spire-math/spire-macros_2.10/0.7.4/spire-macros_2.10-0.7.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.spire-math:spire_2.10:0.7.4">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/spire-math/spire_2.10/0.7.4/spire_2.10-0.7.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/spire-math/spire_2.10/0.7.4/spire_2.10-0.7.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/spire-math/spire_2.10/0.7.4/spire_2.10-0.7.4-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.tachyonproject:tachyon-client:0.8.2">
