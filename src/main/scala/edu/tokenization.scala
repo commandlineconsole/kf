@@ -1,54 +1,17 @@
-/*
-package edu
+import org.apache.spark.SparkContext
 
-import org.apache.spark.{SparkConf, SparkContext}
-import org.apache.spark.sql.SparkSession
+object SimpleApp {
 
+/*  val conf = new SparkConf().setAppName("WordCount")
+  conf.setMaster("local[*]")
+  val sc = new SparkContext(conf)*/
 
-object tokenization {
-
-  def main(args: Array[String]): Unit = {
-
-
-    val spark = new SparkSession
-
-      .appName("Spark SQL basic example")
-      .config("spark.some.config.option", "some-value")
-      .getOrCreate()
-
-    val conf = new SparkConf().setAppName("WordCount")
-    conf.setMaster("local[*]")
-    val sc = new SparkContext(conf)
-
-
-    /*    // For implicit conversions like converting RDDs to DataFrames
-        import org.apache.spark.ml.feature.{HashingTF, Tokenizer}
-
-        val sentenceData = spark.createDataFrame(Seq(
-          (0.0, "Hi I heard about Spark"),
-          (0.0, "I wish Java could use case classes"),
-          (1.0, "Logistic regression models are neat")
-        )).toDF("label", "sentence")
-
-        val tokenizer = new Tokenizer().setInputCol("sentence").setOutputCol("words")
-        val wordsData = tokenizer.transform(sentenceData)
-
-        val hashingTF = new HashingTF()
-          .setInputCol("words").setOutputCol("rawFeatures").setNumFeatures(20)
-
-        val featurizedData = hashingTF.transform(wordsData)
-        // alternatively, CountVectorizer can also be used to get term frequency vectors*/
-
-/*    val idf = new IDF().setInputCol("rawFeatures").setOutputCol("features")
-    val idfModel = idf.fit(featurizedData)
-
-    val rescaledData = idfModel.transform(featurizedData)
-    rescaledData.select("label", "features").show()
-
-    featurizedData.printSchema()
-    featurizedData.foreach(println)
-*/
+  def main(args: Array[String]) {
+    val logFile = "C:\\msg\\kafka\\kf\\kf\\README.md" // Should be some file on your system
+    val sc = new SparkContext("local", "Simple App", "/path/to/spark-0.9.1-incubating",
+      List("target/scala-2.10/simple-project_2.10-1.0.jar"))
+    val logData = sc.textFile(logFile, 2).cache()
+    val numTHEs = logData.filter(line => line.contains("Spark")).count()
+    println("Lines with the: %s".format(numTHEs))
+  }
 }
-}
-
-*/

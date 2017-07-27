@@ -1,4 +1,10 @@
 ------------------------
+
+https://learnhbase.wordpress.com/2013/03/02/hbase-shell-commands/
+http://jesseyates.com/2012/05/02/hbase-table-reference.html
+
+--------------
+
 jps
 ssh localhost
 
@@ -13,16 +19,31 @@ describe 'table1'
 scan 'test1'
 disable 'test1'
 drop 'test1'
+--------------------------
+
+column family --> columns ( first name, last name, contact number, office )
+identified by the rowkey ( Below example row key identified by the Jn for both P and K column family )
+
+create 'pk', 'p','k'
+
+put 'pk', 'jn', 'p:fn', 'Jagan'
+put 'pk', 'jn', 'p:ln', 'Naidu'
+put 'pk', 'jn', 'k:office', 'homeoffice'
+put 'pk', 'jn', 'k:contact', '07411239688'
+put 'pk', 'jn', 'k:Newcontact', '07411239688'
+
+scan 'pk'
+pk.get 'jn'
 
 ------------------------
-create 'emp2', 'personnal_data','profession_data'
 
+create 'emp2', 'pdata','kdata'
 scan 'emp2'
 
-put 'emp2', '1, 'personnal_data:name', 'Ja'
-put 'emp2', '2, 'personnal_data:name', 'ram'
-put 'emp2', '1, 'profession_data:Desgination', 'Manager'
-put 'emp2', '2, 'profession_data:name', 'sr Manager'
+put 'emp', '1', 'pdata:name', 'Ja'
+put 'emp', '2', 'pdata:name', 'ram'
+put 'emp', '1', 'kdata:Desgination', 'Manager'
+put 'emp', '2', 'kdata:name', 'sr Manager'
 
 scan 'emp2'
 
@@ -33,7 +54,32 @@ get 'emp', '2'
 get 'emp', '1'
 get 'emp', '1', {COLUMN => 'personnal_data: name'}
 
-----------------------------
+t =  get_table 'emp'
+t.scan
+t.get '1'
+t.get '1', {COLUMN => 'pdata'}
+
+t.get '1', {TIMERANGE => [1150116421718, 1150116421208] }
+t.get '1', {COLUMN = 'pdata', TIMERANGE => [1150116421718, 1150116421208] }
+t.get '1', {COLUMN = 'pdata', TIMERANGE => [1150116421718, 1150116421208] , VERSIONS => 4}}
+t.get '1', {COLUMN = 'pdata', TIMERANGE = [1150116421718] }
+t.get 'r1', {FILTER => "ValueFilter(=, 'binary:jack')"}
+-------------------------------------------------------------
+hbase> t.get 'r1'
+hbase> t.get 'r1', {TIMERANGE => [ts1, ts2]}
+hbase> t.get 'r1', {COLUMN => 'c1'}
+hbase> t.get 'r1', {COLUMN => ['c1', 'c2', 'c3']}
+hbase> t.get 'r1', {COLUMN => 'c1', TIMESTAMP => ts1}
+hbase> t.get 'r1', {COLUMN => 'c1', TIMERANGE => [ts1, ts2], VERSIONS => 4}
+hbase> t.get 'r1', {COLUMN => 'c1', TIMESTAMP => ts1, VERSIONS => 4}
+hbase> t.get 'r1', {FILTER => "ValueFilter(=, 'binary:abc')"}
+hbase> t.get 'r1', 'c1'
+hbase> t.get 'r1', 'c1', 'c2'
+hbase> t.get 'r1', ['c1', 'c2']
+hbase> t.get 'r1', {CONSISTENCY => 'TIMELINE'}
+hbase> t.get 'r1', {CONSISTENCY => 'TIMELINE', REGION_REPLICA_ID => 1}
+
+-------------------------------------------------------------
 
 create ‘tab3′,’cf’
 
@@ -45,7 +91,7 @@ org.apache.hadoop.hbase.mapreduce.ImportTsv
 -Dimporttsv.columns=HBASE_ROW_KEY,cf tab4
 /user/hadoop/simple1.txt"
 
------------
+-------------------------------------------------------------
 
 create ‘hbase-tb1-003′,’cf’
 

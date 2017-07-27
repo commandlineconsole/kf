@@ -6,7 +6,6 @@ object Json {
 
   def main(args: Array[String]): Unit = {
 
-
     val conf = new SparkConf().setAppName("WordCount")
     conf.setMaster("local[*]")
     val sc = new SparkContext(conf)
