@@ -23,6 +23,12 @@ drop 'test1'
 
 column family --> columns ( first name, last name, contact number, office )
 identified by the rowkey ( Below example row key identified by the Jn for both P and K column family )
+dynamicall we can insert the columns - columns  are not static ,
+we can create column and dataload on the fly
+
+get - retrive
+put - insert and update
+post - insert
 
 create 'pk', 'p','k'
 
@@ -65,6 +71,7 @@ t.get '1', {COLUMN = 'pdata', TIMERANGE => [1150116421718, 1150116421208] , VERS
 t.get '1', {COLUMN = 'pdata', TIMERANGE = [1150116421718] }
 t.get 'r1', {FILTER => "ValueFilter(=, 'binary:jack')"}
 -------------------------------------------------------------
+
 hbase> t.get 'r1'
 hbase> t.get 'r1', {TIMERANGE => [ts1, ts2]}
 hbase> t.get 'r1', {COLUMN => 'c1'}

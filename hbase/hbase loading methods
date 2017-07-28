@@ -1,0 +1,28 @@
+
+1.Using ImportTsv to load txt to HBase
+2.Using completebulkload to load txt to HBase
+3.Using completebulkload to load Hfile to HBase
+
+---------------------------------------
+create ‘tab3′,’cf’
+bin/hadoop fs -copyFromLocal simple1.txt  /user/hadoop/simple1.txt
+
+bin/hbase org.apache.hadoop.hbase.mapreduce.ImportTsv
+-Dimporttsv.separator=”,”
+-Dimporttsv.columns=HBASE_ROW_KEY,cf tab4 /user/hadoop/simple1.txt
+
+scan 'tab4'
+
+------------------------------
+
+create ‘hbase-tb1-003′,’cf’
+bin/hbase org.apache.hadoop.hbase.mapreduce.ImportTsv
+-Dimporttsv.separator=”,”
+-Dimporttsv.bulk.output=hfile_tmp5
+-Dimporttsv.columns=HBASE_ROW_KEY,cf hbase-tbl-003 /user/hadoop/simple1.txt
+
+------------
+hadoop jar lib/hbase-server-0.98.13-hadoop2.jar
+completebulkload
+hfile_tmp5
+hbase-tbl-003

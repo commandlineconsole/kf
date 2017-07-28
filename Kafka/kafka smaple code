@@ -1,0 +1,22 @@
+-------------------------------------------
+Step 1 :  ( start zookeeper and server )
+pwd
+
+cd C:\Users\Ja\Downloads\kafka_2.12-0.11.0.0\kafka_2.12-0.11.0.0\bin\windows
+
+zookeeper-server-start.bat C:\Users\Ja\Downloads\kafka_2.12-0.11.0.0\kafka_2.12-0.11.0.0\config\zookeeper.properties
+
+kafka-server-start.bat C:\Users\Ja\Downloads\kafka_2.12-0.11.0.0\kafka_2.12-0.11.0.0\config\zookeeper.properties
+-------------------------------------------
+Step : 2  ( create topic and list the topic )
+
+kafka-topics.bat --create --zookeeper 127.0.0.1:2182 --replication-factor 1 --partitions 1 --topic jnaidu
+
+kafka-topics.bat --list --zookeeper 192.168.186.1:2182
+
+-------------
+Step 3 : ( producer and consumer start)
+
+kafka-console-producer.bat --broker-list 127.0.0.1:9092 --topic jnaidu
+
+kafka-console-consumer.bat --zookeeper 127.0.0.1:2182 --topic jnaidu02
