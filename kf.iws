@@ -2,12 +2,217 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5141ce19-3c9c-48f3-9c1e-9aa2b3443eb9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/kafka smaple code" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/REST/Rest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/REST/Spark Rest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hbase/hbase loading methods" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hbase/hbase arch.xls" afterPath="$PROJECT_DIR$/hbase/hbase arch.xls" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hbase/hbase" afterPath="$PROJECT_DIR$/hbase/hbase" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/project/target/config-classes/$0d30c4675be2c6267b47$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/project/target/config-classes/$0d30c4675be2c6267b47.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/project/target/config-classes/$17e9652b7b2ad9a45a36.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/project/target/config-classes/$17e9652b7b2ad9a45a36.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/project/target/config-classes/$631c11f0748bb32510a9$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/project/target/config-classes/$631c11f0748bb32510a9.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/project/target/config-classes/$e3dba377510eb4d6e8a2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/project/target/config-classes/$e511e1f1a3971156c0dc$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/project/target/config-classes/$e511e1f1a3971156c0dc.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/.history" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/streams/$global/ivySbt/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/streams/$global/projectDescriptors/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/project/target/config-classes/$2ba879eb47f4f3c677e1$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/project/target/config-classes/$2ba879eb47f4f3c677e1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/project/target/config-classes/$6a1ac8dfaeeff74933e6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/project/target/config-classes/$8410d8a03fdc9e67a436$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/project/target/config-classes/$8410d8a03fdc9e67a436.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/project/target/config-classes/$a6aa560a5f2e59219220.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/project/target/config-classes/$a6aa560a5f2e59219220.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/project/target/config-classes/$f5321973f22bdf9f695a$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/project/target/config-classes/$f5321973f22bdf9f695a.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/.history" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/streams/$global/ivySbt/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/streams/$global/projectDescriptors/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/ApacheKafkaTutorials-master.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/dbnavigator.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/libraries/SBT__com_101tec_zkclient_0_9_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_annotations_2_5_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_core_2_5_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_databind_2_5_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/libraries/SBT__com_thoughtworks_paranamer_paranamer_2_7_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/libraries/SBT__io_confluent_common_config_3_1_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/libraries/SBT__io_confluent_common_utils_3_1_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/libraries/SBT__io_confluent_kafka_avro_serializer_3_1_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/libraries/SBT__io_confluent_kafka_schema_registry_client_3_1_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/libraries/SBT__io_netty_netty_3_7_0_Final_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/libraries/SBT__jline_jline_0_9_94_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/libraries/SBT__log4j_log4j_1_2_17_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/libraries/SBT__net_jpountz_lz4_lz4_1_3_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/libraries/SBT__org_apache_avro_avro_1_8_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/libraries/SBT__org_apache_commons_commons_compress_1_8_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/libraries/SBT__org_apache_kafka_kafka_clients_0_10_1_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/libraries/SBT__org_apache_zookeeper_zookeeper_3_4_8_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/libraries/SBT__org_codehaus_jackson_jackson_core_asl_1_9_13_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/libraries/SBT__org_codehaus_jackson_jackson_mapper_asl_1_9_13_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/libraries/SBT__org_scala_lang_scala_library_2_10_6_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/libraries/SBT__org_slf4j_slf4j_api_1_7_21_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/libraries/SBT__org_slf4j_slf4j_log4j12_1_7_6_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/libraries/SBT__org_tukaani_xz_1_5_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/libraries/SBT__org_xerial_snappy_snappy_java_1_1_2_6_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/sbt.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/scala_compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/.idea/modules/avroconsumer-v1-build.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/.idea/modules/avroconsumer-v1.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/AvroConsumer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/ClickRecord.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/ClickRecordV1.avsc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/build.sbt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/project/target/config-classes/$0d30c4675be2c6267b47.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/project/target/config-classes/$631c11f0748bb32510a9.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/project/target/config-classes/$e3dba377510eb4d6e8a2.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/project/target/config-classes/$e511e1f1a3971156c0dc.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/avrotest/avrotest$sources_2.10/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/avrotest/avrotest$sources_2.10/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/avrotest/avrotest_2.10/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/avrotest/avrotest_2.10/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/reports/avrotest-avrotest$sources_2.10-compile-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/reports/avrotest-avrotest$sources_2.10-compile.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/reports/avrotest-avrotest$sources_2.10-docs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/reports/avrotest-avrotest$sources_2.10-optional.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/reports/avrotest-avrotest$sources_2.10-plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/reports/avrotest-avrotest$sources_2.10-pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/reports/avrotest-avrotest$sources_2.10-provided.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/reports/avrotest-avrotest$sources_2.10-runtime-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/reports/avrotest-avrotest$sources_2.10-runtime.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/reports/avrotest-avrotest$sources_2.10-scala-tool.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/reports/avrotest-avrotest$sources_2.10-sources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/reports/avrotest-avrotest$sources_2.10-test-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/reports/avrotest-avrotest$sources_2.10-test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/reports/avrotest-avrotest_2.10-compile-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/reports/avrotest-avrotest_2.10-compile.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/reports/avrotest-avrotest_2.10-docs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/reports/avrotest-avrotest_2.10-optional.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/reports/avrotest-avrotest_2.10-plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/reports/avrotest-avrotest_2.10-pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/reports/avrotest-avrotest_2.10-provided.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/reports/avrotest-avrotest_2.10-runtime-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/reports/avrotest-avrotest_2.10-runtime.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/reports/avrotest-avrotest_2.10-scala-tool.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/reports/avrotest-avrotest_2.10-sources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/reports/avrotest-avrotest_2.10-test-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/reports/avrotest-avrotest_2.10-test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/reports/ivy-report.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/resolution-cache/reports/ivy-report.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/streams/$global/$global/dumpStructure/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/streams/$global/update/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/streams/compile/unmanagedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/streams/compile/unmanagedJars/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/streams/runtime/unmanagedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/streams/runtime/unmanagedJars/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/streams/test/externalDependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/streams/test/managedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/streams/test/unmanagedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V1/target/streams/test/unmanagedJars/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/.idea/modules/avroconsumer-v2-build.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/.idea/modules/avroconsumer-v2.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/ClickRecord.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/ClickRecordConsumerV2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/ClickRecordV2.avsc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/build.sbt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/project/target/config-classes/$2ba879eb47f4f3c677e1.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/project/target/config-classes/$6a1ac8dfaeeff74933e6.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/project/target/config-classes/$8410d8a03fdc9e67a436.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/project/target/config-classes/$f5321973f22bdf9f695a.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/avrotest/avrotest$sources_2.10/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/avrotest/avrotest$sources_2.10/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/avrotest/avrotest_2.10/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/avrotest/avrotest_2.10/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/reports/avrotest-avrotest$sources_2.10-compile-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/reports/avrotest-avrotest$sources_2.10-compile.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/reports/avrotest-avrotest$sources_2.10-docs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/reports/avrotest-avrotest$sources_2.10-optional.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/reports/avrotest-avrotest$sources_2.10-plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/reports/avrotest-avrotest$sources_2.10-pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/reports/avrotest-avrotest$sources_2.10-provided.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/reports/avrotest-avrotest$sources_2.10-runtime-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/reports/avrotest-avrotest$sources_2.10-runtime.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/reports/avrotest-avrotest$sources_2.10-scala-tool.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/reports/avrotest-avrotest$sources_2.10-sources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/reports/avrotest-avrotest$sources_2.10-test-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/reports/avrotest-avrotest$sources_2.10-test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/reports/avrotest-avrotest_2.10-compile-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/reports/avrotest-avrotest_2.10-compile.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/reports/avrotest-avrotest_2.10-docs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/reports/avrotest-avrotest_2.10-optional.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/reports/avrotest-avrotest_2.10-plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/reports/avrotest-avrotest_2.10-pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/reports/avrotest-avrotest_2.10-provided.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/reports/avrotest-avrotest_2.10-runtime-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/reports/avrotest-avrotest_2.10-runtime.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/reports/avrotest-avrotest_2.10-scala-tool.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/reports/avrotest-avrotest_2.10-sources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/reports/avrotest-avrotest_2.10-test-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/reports/avrotest-avrotest_2.10-test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/reports/ivy-report.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/resolution-cache/reports/ivy-report.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/streams/$global/$global/dumpStructure/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/streams/$global/update/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/streams/compile/unmanagedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/streams/compile/unmanagedJars/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/streams/runtime/unmanagedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/streams/runtime/unmanagedJars/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/streams/test/externalDependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/streams/test/managedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/streams/test/unmanagedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroConsumer-V2/target/streams/test/unmanagedJars/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroProducer-V1/AvroProducer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroProducer-V1/ClickRecord.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroProducer-V1/ClickRecordV1.avsc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroProducer-V1/build.sbt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroProducer-V2/ClickRecord.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroProducer-V2/ClickRecordProducerV2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroProducer-V2/ClickRecordV2.avsc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/AvroProducer-V2/build.sbt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/ConsumerExample/ManualConsumer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/ConsumerExample/NewSupplierConsumer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/ConsumerExample/RandomConsumer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/ConsumerExample/RandomProducer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/ConsumerExample/RebalanceListner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/ConsumerExample/SensorConsumer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/ConsumerExample/SupplierConsumer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/ConsumerExample/build.sbt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/ConsumerExample/tss.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/ProducerExamples/AsynchronousProducer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/ProducerExamples/SensorPartitioner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/ProducerExamples/SensorProducer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/ProducerExamples/SimpleProducer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/ProducerExamples/Supplier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/ProducerExamples/SupplierConsumer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/ProducerExamples/SupplierDeserializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/ProducerExamples/SupplierProducer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/ProducerExamples/SupplierSerializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/ProducerExamples/SynchronousProducer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/ProducerExamples/build.sbt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kf.iws" afterPath="$PROJECT_DIR$/kf.iws" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,7 +229,7 @@
     <favorites_list name="kf" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="Rest" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/REST/Rest">
           <provider selected="true" editor-type-id="text-editor">
@@ -45,11 +250,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kafka smaple code" pinned="false" current-in-tab="true">
+      <file leaf-file-name="kafka smaple code" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Kafka/kafka smaple code">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="594">
               <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sbt.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/sbt.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -189,6 +404,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -310,32 +527,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kafka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kafka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Pictures/scala usefuls/JavaInterviewQuestionsAndAnswers-master/JavaInterviewQuestionsAndAnswers-master/pom.xml" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Pictures/scala usefuls/ApacheKafkaTutorials-master" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -343,12 +540,6 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\msg\kafka\kf\kf" />
-      <recent name="C:\msg\kafka\kf\kf\src\main\scalatutorials\coll" />
-      <recent name="C:\msg\kafka\kf\kf\src\main\scalatutorials" />
-      <recent name="C:\msg\kafka\kf\kf\src\main" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -358,6 +549,12 @@
       <recent name="C:\msg\kafka\kf\kf\src\main\scala" />
       <recent name="C:\msg\kafka\kf\kf\src\main\scalatutorials\Edureka\traits" />
       <recent name="C:\msg\kafka\kf\kf\src\main\scalatutorials\Edureka" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\msg\kafka\kf\kf" />
+      <recent name="C:\msg\kafka\kf\kf\src\main\scalatutorials\coll" />
+      <recent name="C:\msg\kafka\kf\kf\src\main\scalatutorials" />
+      <recent name="C:\msg\kafka\kf\kf\src\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -923,7 +1120,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21882352" sideWeight="0.49785176" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43529412" sideWeight="0.49570355" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14178303" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18904404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -1004,13 +1201,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/edu/token.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mysql/mysql.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-324">
@@ -1329,14 +1519,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/REST/REST.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/REST/REST.html" />
     <entry file="file://$PROJECT_DIR$/REST/Rest">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1357,6 +1540,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kafka/ApacheKafkaTutorials-master/.idea/sbt.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
