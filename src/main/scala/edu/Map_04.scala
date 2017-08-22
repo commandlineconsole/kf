@@ -3,12 +3,9 @@ package edu
 import org.apache.spark.sql.Row
 import org.apache.spark.sql.types.{StringType, StructField, StructType}
 import org.apache.spark.{SparkConf, SparkContext}
-
 import scala.collection.immutable.HashMap
 
-/**
-  * Created by Ja on 19/07/2017.
-  */
+
 object Map_04 {
 
   def main(args: Array[String]): Unit = {
@@ -34,7 +31,7 @@ object Map_04 {
 
     ))
 
-    val rdd = sc.parallelize(newMap.map(
+   val rdd = sc.parallelize(newMap.map(
 
       hashmap => Row.fromSeq(
 
@@ -44,9 +41,7 @@ object Map_04 {
 
     schema.printTreeString()
 
- rdd.foreach(println)
-
-
+  rdd.foreach(println)
 
 
   }

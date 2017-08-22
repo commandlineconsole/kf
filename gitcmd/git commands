@@ -6,3 +6,35 @@ git commit -am "first commit" or git push
 
 ---------------------------------
 
+git branch feature1
+git checkout feature1
+vim addition1.txt
+git add addition1.txt
+git commit -m "adding featuer bob"
+clear
+
+----------
+
+git add edureka.txt
+git status
+git commit -m "bob changing edureka"
+git push origin master ( if you get error then use mergetool to merge the changes)
+
+git mergetool
+git rebase --continue
+git push origin master
+-------------------------------
+
+featue brances
+develop
+release branches
+hotfix
+master ( contain various version)
+
+---------------------------------
+
+centralized workflow
+feature branch workflow
+git flow workflow
+
+------------------------

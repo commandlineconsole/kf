@@ -16,7 +16,7 @@ cp /usr/share
 // copy example from  local to demo folder
 
 /usr/lib/hue/apps/oozie/examples/workflows/spark-scala/lib/oozie-examples.jar
-/usr/share/doc/oozie-4.1.0+cdh5.10.0+389/oozie-examples.tar.gz
+/usr/share/doc/oozie-4.1.0+ cdh5.10.0+389/oozie-examples.tar.gz
 
 mkdir /root/demo
 cd /root/demo

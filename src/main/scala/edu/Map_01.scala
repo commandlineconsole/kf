@@ -3,7 +3,6 @@ package edu
 import org.apache.spark.streaming._
 import org.apache.spark.{SparkConf, SparkContext}
 
-
 object Map_01 {
 
   def main(args: Array[String]): Unit = {
@@ -12,16 +11,21 @@ object Map_01 {
     conf.setMaster("local[*]")
     val sc = new SparkContext(conf)
 
+    val A = 222 + 2323
+    println(A)
+
+
     val x = sc.parallelize(Array("b", "a", "c"))
     val y = x.map(z => (z,1))
+    println(y)
 
-    println("*******v 123 ********* ")
-    println(x.collect().mkString(", "))  // todo : b, a,c
-    println("******* 456 ********* ")
-    println(y.collect().mkString(", "))   // todo : (b,1), (a,1), (c,1)
-    println("******* 789 ********* ")
+    /*
+        println(x.collect().mkString(", "))  // todo : b, a,c
+        println(y.collect().mkString(", "))   // todo : (b,1), (a,1), (c,1)
+    */
 
 
+    /*
     val x1 = sc.parallelize(Array(1,2,3))
     val y1 = x1.filter(n => n%2 == 1)
     println("******* 123 ********* ")
@@ -92,12 +96,7 @@ object Map_01 {
     println(yOut)
     yOut.foreach(println)
     println("******* mapPartitions 345 ********* ")
-
-
-
-
-
-
+*/
   }
 
 }

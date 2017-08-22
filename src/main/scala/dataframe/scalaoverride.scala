@@ -2,16 +2,12 @@ package dataframe
 
 object scalaoverride {
 
-  override def hashCode(): Int = super.hashCode()
+/*  override def hashCode(): Int = super.hashCode()
   override def clone(): AnyRef = super.clone()
   override def finalize(): Unit = super.finalize()
-  override def equals(obj: scala.Any): Boolean = super.equals(obj)
-
-
-
+  override def equals(obj: scala.Any): Boolean = super.equals(obj)*/
 
   def main(args: Array[String]): Unit = {
-
 
         val str1 = "Hello world."
         val str2 = "Hello world."
@@ -22,5 +18,5 @@ object scalaoverride {
 
       }
 
-  override def toString = s"scalaoverride($hashCode)"
+  //    override def toString = s"scalaoverride($hashCode)"
 }

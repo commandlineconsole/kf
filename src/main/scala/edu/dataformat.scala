@@ -2,7 +2,6 @@ package edu
 import java.util.Calendar
 
 object dataformat {
-
   def main(args: Array[String]): Unit = {
 
       val s: String = "01/01/2015 11:11"
@@ -26,6 +25,7 @@ object dataformat {
           retvalue = first
         }
       }
+
       retvalue
     }
 
@@ -33,6 +33,7 @@ object dataformat {
 
     val s2: String = "20161207_11:31_v40"
     val first = s2.split(",")(0)
+
     println(first.toString().lastIndexOf('_'))
     println( first.substring(first.toString().lastIndexOf('_') + 2).toInt)
 
@@ -42,7 +43,9 @@ object dataformat {
 
     def toEVersion(s2: String): String = {
       var retvalue = "v26"
+
       if (s2 != null && s2 != "" && s2.toString.indexOf("_") >= 0) {
+
         val first = s2.split(",")(0)
         if (first.toString.indexOf("_") >= 0) {
           retvalue = first.substring(first.toString().lastIndexOf('_') + 1)
